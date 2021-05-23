@@ -1,0 +1,4 @@
+{{ $dest := replace .Destination "../../../static" "" 1 }}
+<p class="md_image">
+  <img src="{{ $dest | safeURL }}" alt="{{ .Text }}" id="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />
+</p>
