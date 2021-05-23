@@ -1,13 +1,13 @@
-[en]
-  title = "Hugo Zzo Theme"
-  languageName = "English"
+[zh]
+  title = "Zoey的程式日常"
+  languageName = "中文"
   weight = 1
-  languagedir = "ltr"
-  contentdir = "content/en"
+  languagedir = "ltr"  #文字書寫方向 ltr左向右 rtl右向左
+  contentdir = "content/zh"
 
-[ko]
-  title = "Hugo Zzo Theme"
-  languageName = "한국어"
+[en]
+  title = "Zoey's daily coding"
+  languageName = "EN"
   weight = 2
-  languagedir = "ltr"
-  contentdir = "content/ko"
+  languagedir = "ltr"  #文字書寫方向 ltr左向右 rtl右向左
+  contentdir = "content/en"

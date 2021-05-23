@@ -9,8 +9,12 @@
     {{ end }}
     {{ if ne .Site.Params.logoType "long" }}
       <a href="{{ "/" | relLangURL }}" title="{{ i18n "tooltip-home" }}" rel="home" class="navbar__title-link">
-        <h6 class="navbar__title">{{ .Site.Params.logoText }}</h6>
-      </a>
+		{{ if ne .Site.Language.Lang "zh" }}
+			<h6 class="navbar__title">{{ .Site.Params.logoText }}</h6>
+		{{ else }}
+			<h6 class="navbar__title">{{ .Site.Params.logoTextZh }}</h6>
+		{{ end }}
+     </a>
     {{ end }}
   </div>
 

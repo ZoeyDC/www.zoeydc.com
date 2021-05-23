@@ -1,58 +1,40 @@
 ---
 header:
-  - type: typewriter
-    methods:
-      - typeString: Hello world!
-      - pauseFor: 2500
-      - deleteAll: true
-      - typeString: Strings can be removed
-      - pauseFor: 2500
-      - deleteChars: 7
-      - typeString: <strong>altered!</strong>
-      - pauseFor: 2500
-    options:
-      loop: true
-      autoStart: false
-    height: 190
-    paddingX: 50
-    align: center
-    fontSize: 44
-    fontColor: yellow
-    
   - type: text
-    height: 200
+    height: 235
     paddingX: 50
     paddingY: 0
-    align: center
+    align: left
     title:
-      - .NET / C# / OOP / Design Patterns / Git
+      - header title1
+      - header title2
     subtitle:
-      - 
-    titleColor: darkgreen
+      - header subtitle1
+      - header subtitle2
+    titleColor: 
     titleShadow: false
-    titleFontSize: 22
-    subtitleColor: 
-    subtitleCursive: true
-    subtitleFontSize: 18
-    spaceBetweenTitleSubtitle: 16
+    titleFontSize: 44
+    subtitleColor:
+    subtitleCursive: false
+    subtitleFontSize: 16
+    spaceBetweenTitleSubtitle: 20
   
   - type: img
-    imageSrc: images/header/background.jpg
-    imageSize: cover
-    imageRepeat: no-repeat
-    imagePosition: center
+    image: images/header/background.png
     height: 235
     paddingX: 50
     paddingY: 0
     align: center
     title:
-      -
+      - header title1
+      - header title2
     subtitle:
-      -
-    titleColor:
+      - header subtitle1
+      - header subtitle2
+    titleColor: 
     titleShadow: false
     titleFontSize: 44
-    subtitleColor:
+    subtitleColor: 
     subtitleCursive: false
     subtitleFontSize: 16
     spaceBetweenTitleSubtitle: 20
@@ -71,10 +53,7 @@ header:
       - paddingX: 50
         paddingY: 0
         align: left
-        imageSrc: images/header/background.jpg
-        imageSize: cover
-        imageRepeat: no-repeat
-        imagePosition: center
+        image: images/header/background.png
         title:
           - header title1
         subtitle:
@@ -86,10 +65,7 @@ header:
       - paddingX: 50
         paddingY: 0
         align: center
-        imageSrc: images/header/background.jpg
-        imageSize: cover
-        imageRepeat: no-repeat
-        imagePosition: center
+        image: images/header/background.png
         title:
           - header title2
         subtitle:
@@ -101,10 +77,7 @@ header:
       - paddingX: 50
         paddingY: 0
         align: right
-        imageSrc: images/header/background.jpg
-        imageSize: cover
-        imageRepeat: no-repeat
-        imagePosition: center
+        image: images/header/background.png
         title:
           - header title3
         subtitle:

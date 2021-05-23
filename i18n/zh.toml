@@ -1,20 +1,20 @@
 [search-placeholder]
-other = "搜索"
+other = "Search"
 
 [summary-dateformat]
 other = "2006年01月02日"
 
 [reading-time]
-other = "分钟"
+other = "分鐘"
 
 [tags]
-other = "标签"
+other = "Tags"
 
 [categories]
-other = "分类"
+other = "Categories"
 
 [series]
-other = "系列"
+other = "Series"
 
 [archive-dateformat]
 other = "01-02"
@@ -32,25 +32,25 @@ other = "2006-01-02"
 other = "2006年01月"
 
 [single-related]
-other = "相关内容"
+other = "相關文章"
 
 [single-writtenBy]
 other = "作者"
 
 [toc-label]
-other = "目录"
+other = "目錄"
 
 [counter-site-pv]
-other = "总浏览"
+other = "總瀏覽"
 
 [counter-site-uv]
-other = "总访客"
+other = "總訪客"
 
 [counter-page-pv]
-other = "阅读"
+other = "閱讀"
 
 [donate-message]
-other = "您的鼓励是我最大的动力"
+other = "您的鼓勵是我最大的動力"
 
 [share-message]
 other = "分享"
@@ -59,37 +59,37 @@ other = "分享"
 other = "姓名"
 
 [contact-email]
-other = "电子邮件"
+other = "Email"
 
 [contact-tel]
 other = "Tel"
 
 [contact-file]
-other = "File"
+other = "檔案"
 
 [contact-message]
-other = "消息"
+other = "訊息"
 
 [contact-send]
-other = "发送"
+other = "發送"
 
 [contact-browse]
 other = "Browse"
 
 [tooltip-home]
-other = "主页"
+other = "主頁"
 
 [tooltip-written]
-other = "创建日期"
+other = "建立日期"
 
 [tooltip-modified]
 other = "更新日期"
 
 [tooltip-reading-time]
-other = "阅读时长"
+other = "閱讀時長"
 
 [showcase-overview]
-other = "总览"
+other = "總覽"
 
 [showcase-pinned]
 other = "固定"

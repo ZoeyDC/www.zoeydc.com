@@ -1,44 +1,44 @@
-baseURL = "http://example.org"
-title = "Hugo Zzo Theme"
+baseURL = "https://www.zoeydc.com/"
+title = "Zoey's daily coding"
 theme = "zzo"
 
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
-hasCJKLanguage = true
+defaultContentLanguage = "zh"  # 預設語言
+defaultContentLanguageInSubdir = true  # 預設語言的文章置放於「content/語言」子目錄
+hasCJKLanguage = true  # 含中文、日文或韓文
 
-summaryLength = 70
-buildFuture = true
+summaryLength = 70  # 擷取多少字作為 Summary (當文章的 description 未設定時)
+buildFuture = false  # 編譯日期未到的文章
 
-copyright = "&copy;{year}, All Rights Reserved"
-timeout = 10000
+copyright = "&copy;{year}, All Rights Reserved."   # 頁尾版權聲明
+timeout = 10000  # timeout 設定(避免頁面自我呼叫造成無限循環，而無法完成編譯)，如果有大量圖檔可能須提高臨界值
 enableEmoji = true
-paginate = 13
-rssLimit = 100
+paginate = 13  # 分頁數
+rssLimit = 100  # RSS 項目數
 
-enableGitInfo = false
+enableGitInfo = false  # 文章中使用 git 參數 https://gohugo.io/variables/git/
 googleAnalytics = ""
 
-[markup]
+[markup]   #  Markdown 組態設定 https://gohugo.io/getting-started/configuration-markup
   [markup.goldmark]
     [markup.goldmark.renderer]
-      hardWraps = true
-      unsafe = true
+      hardWraps = true  # 段落中的換行是否強制換行，例如 <p>Line one <br>Line two</p>，true 為1行，false 為2行
+      unsafe = true  # 如果用了很多 shortcode，建議開啟
       xHTML = true
   [markup.highlight]
-    codeFences = true
+    codeFences = true  # 預設 Fenced Code Blocks 高亮模式，如果有使用其他高亮套件可能發生衝突，則改成 false
     lineNos = true
     lineNumbersInTable = true
     noClasses = false
   [markup.tableOfContents]
-    endLevel = 4
+    endLevel = 3
     ordered = false
     startLevel = 2
 
-[outputs]
+[outputs]  # 各類頁面會產生的檔案格式 SearchIndex(.json)用於站內搜尋，.xml產生RSS用
   home = ["HTML", "RSS", "SearchIndex"]
   section = ["HTML", "RSS", "SearchIndex"]
-  taxonomyTerm = ["HTML", "RSS", "SearchIndex"]
-  taxonomy = ["HTML", "RSS", "SearchIndex"]
+  taxonomyTerm = ["HTML", "RSS", "SearchIndex"]  # 如果有很多標籤或分類可改成 ["HTML"] 以降低檔案量與大小
+  taxonomy = ["HTML", "RSS", "SearchIndex"]  # 如果有很多標籤或分類可改成 ["HTML"] 以降低檔案量與大小
 
 [outputFormats]
   [outputFormats.SearchIndex]

@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "Hugo Zzo theme",
-  "short_name": "Hugo Zzo theme",
+  "name": "zoeydc",
+  "short_name": "zoeydc",
   "version": "1.0.0",
   "default_locale": "en",
-  "description": "Hugo blog theme with rich features",
-  "start_url": "https://themes.gohugo.io/theme/hugo-theme-zzo/",
+  "description": "Zoey's blog",
+  "start_url": "https://www.zoeydc.com",
   "icons": [
     {
       "src": "favicon/android-icon-36x36.png",

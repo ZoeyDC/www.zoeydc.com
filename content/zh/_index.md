@@ -25,9 +25,9 @@ header:
     paddingY: 0
     align: center
     title:
-      - .NET / C# / OOP / Design Patterns / Git
+      - .NET / C# / OOP / 設計模式 / Git
     subtitle:
-      - 
+      - 日積跬步，以致千里
     titleColor: darkgreen
     titleShadow: false
     titleFontSize: 22
