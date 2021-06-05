@@ -1,6 +1,6 @@
 ---
-title: Markdown Syntax Guide
-date: 2019-12-20T12:00:06+09:00
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
 lastmod: "2020-12-18T10:33:41+09:00"
 description: Sample article showcasing basic Markdown syntax and formatting for HTML elements.
 draft: false
