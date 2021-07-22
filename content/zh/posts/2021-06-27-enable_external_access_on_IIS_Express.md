@@ -13,6 +13,8 @@ pinned: false
 tags:
 - IIS Express
 - debug
+categories:
+- Visual Studio
 image: images/2021-06-27/media-774068_640.png
 ---
 
@@ -29,10 +31,9 @@ image: images/2021-06-27/media-774068_640.png
 
 ## 三、以系統管理員⾝分開啟 Visual Studio
 
-一定要用系統管理員⾝分執⾏ Visual Studio，因為更改成非 localhost 的繫結設定後需要系統管
-理員權限才能執⾏ IIS Express。
+一定要用系統管理員⾝分執⾏ Visual Studio，因為更改成非 localhost 的繫結設定後需要系統管理員權限才能執⾏ IIS Express。
 
-如果沒有用系統管理員執行，會跳出以下訊息：
+如果沒有用系統管理員執行，可能會跳出以下訊息：
 
 ![urlbinding](../../../static/images/2021-06-27/urlbinding.png)
 
@@ -75,9 +76,11 @@ port（以上面例子來說就是 62754 和 44372）→完成設定
 
 手機使⽤對應的 URL，例如 `http://192.168.40.1:62754`，即可瀏覽。
 
->（個⼈偏好，在測試完成後，會將 applicationhost.config 繫結改回來 localhost，不然重開專案後，繫結可能重設，網站名稱和編號會⼀直增加 （例如 TestSite → TestSite(1) → TestSite(2) → …）
+> 個⼈偏好，在測試完成後，會將 applicationhost.config 繫結改回來 localhost，不然重開專案後，繫結可能重設，網站名稱和編號會⼀直增加 （例如 TestSite → TestSite(1) → TestSite(2) → …）
 
 ## 備註：狀況排解
+
+以下是我設定時曾經遇到的狀況和解決方法：
 
 狀況⼀、The site can’t be reached.（無法連上這個網站） → 檢查輸入規則是否設定成功。
 
