@@ -2,7 +2,7 @@ logoText = "Zoey's daily coding"  # 最上方 logo 旁文字
 logoTextZh = "Zoey的程式日常"  # 最上方 logo 旁文字
 logoType = "short" # long, short
 description = ".NET / C# / OOP / 設計模式 / Git" # for SEO
-custom_css = [] # custom_css = ["scss/custom.scss"] and then make file at root/assets/scss/custom.scss
+custom_css = ["scss/custom.scss"] # custom_css = ["scss/custom.scss"] and then make file at root/assets/scss/custom.scss
 custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/js/custom.js
 useFaviconGenerator = false # https://www.favicon-generator.org/(透明背景變白色)，static\favicon
 # 維持透明背景： ico 檔 http://en.faviconico.org/favicon，png 檔 https://appicon.co/ (Android)
@@ -43,7 +43,8 @@ searchThreshold = 0.4 # 0.0: exact match, 1.0: any match
 # body
 enableBreadcrumb = true  # 導覽列(例如：首頁 > 文章 > 文章標題)
 enableGoToTop = true  # 回到頂端小箭頭
-enableWhoami = false  # 每頁文章下方作者簡介
+enableWhoami = true  # 每頁文章下方作者簡介
+AuthorDesc = "內容如有錯誤或建議，歡迎來信（me@zoeydc.com）"
 summaryShape = "classic" # card 大圖, classic 標準, compact 無圖
 archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
 archivePaginate = 13
@@ -60,10 +61,12 @@ pinIcon = "📌"
 tagIcon = "🏷️"
 publicationIcon = "📚"
 typeIcon = "🎯"
+categoryIcon = "🍀"
+infoShowAuthor = false
 
 # whoami
 myname = "Zoey"
-email = ""
+email = "me@zoeydc.com"
 whoami = ".Net Developer"
 bioImageUrl = ""
 useGravatar = false
@@ -101,9 +104,9 @@ enableThemeChange = false   # 提供 themeOptions 選單
 googleTagManager = "" # GTM-XXXXXX
 baiduAnalytics = ""
 enableBusuanzi = true  # if set true, total page view, total unique visitors show up in the footer.
-busuanziSiteUV = true  # unique visitors (total number of visitors)
-busuanziSitePV = true  # site total page view count
-busuanziPagePV = true  # post view count
+busuanziSiteUV = false  # unique visitors (total number of visitors)
+busuanziSitePV = false  # site total page view count
+busuanziPagePV = false  # post view count
 
 # rss
 updatePeriod = "weekly" # Possible values: 'hourly', 'daily', 'weekly', 'monthly', or 'yearly'.
@@ -163,7 +166,7 @@ commento = false
   dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions]
-  email = ""
+  email = "mailto:me@zoeydc.com"
   phone = ""
   facebook = ""
   twitter = ""

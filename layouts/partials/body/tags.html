@@ -1,9 +1,20 @@
-{{ $taxo := "tags" }}
 <ul class="single__tags caption">
+
+{{ $taxo := "categories" }}
+  {{ if .Params.categories }}
+  <span title="{{ i18n "categories" }}">{{ ($.Site.Params.categoryIcon | safeHTML) | default "🔑" }}</span>
+  {{ end }}
+{{ range (.GetTerms "categories") }}
+  <li><a href="{{ .Permalink }}" class="single__tag" title="{{ .LinkTitle }}">#{{ .LinkTitle }}</a></li>
+{{ end }}
+
+{{ $taxo := "tags" }}
   {{ if .Params.tags }}
-  {{ ($.Site.Params.tagIcon | safeHTML) | default "🏷️" }}
+  <span title="{{ i18n "tags" }}">{{ ($.Site.Params.tagIcon | safeHTML) | default "🏷️" }}</span>
   {{ end }}
 {{ range (.GetTerms "tags") }}
   <li><a href="{{ .Permalink }}" class="single__tag" title="{{ .LinkTitle }}">#{{ .LinkTitle }}</a></li>
 {{ end }}
+
 </ul>
+
