@@ -16,6 +16,7 @@ tags:
 - heap
 - value types
 - reference types
+- struct
 categories:
 - .NET Framework
 image: images/2021-07-10/stones-937659_640.jpg
