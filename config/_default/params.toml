@@ -101,7 +101,7 @@ enableLangChange = false  # 提供語言選單
 enableThemeChange = false   # 提供 themeOptions 選單
 
 # service
-googleTagManager = "" # GTM-XXXXXX
+googleTagManager = "GTM-5P295PX" # GTM-XXXXXX
 baiduAnalytics = ""
 enableBusuanzi = true  # if set true, total page view, total unique visitors show up in the footer.
 busuanziSiteUV = false  # unique visitors (total number of visitors)
