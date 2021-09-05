@@ -15,6 +15,7 @@
 </head>
 
 <body id="root" class="theme__{{ index .Site.Params.themeOptions 0 }}">
+    {{ partial "body/google-tag-manager" . }}
     <script>
         var localTheme = localStorage.getItem('theme');
         if (localTheme) {
