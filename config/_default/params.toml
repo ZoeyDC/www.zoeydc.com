@@ -44,7 +44,7 @@ searchThreshold = 0.4 # 0.0: exact match, 1.0: any match
 enableBreadcrumb = true  # 導覽列(例如：首頁 > 文章 > 文章標題)
 enableGoToTop = true  # 回到頂端小箭頭
 enableWhoami = true  # 每頁文章下方作者簡介
-AuthorDesc = "內容如有錯誤或建議，歡迎來信（me@zoeydc.com）"
+AuthorDesc = "內容如有錯誤或建議，歡迎來信（contact@zoeydc.com）"
 summaryShape = "classic" # card 大圖, classic 標準, compact 無圖
 archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
 archivePaginate = 13
@@ -66,7 +66,7 @@ infoShowAuthor = false
 
 # whoami
 myname = "Zoey"
-email = "me@zoeydc.com"
+email = "contact@zoeydc.com"
 whoami = ".Net Developer"
 bioImageUrl = ""
 useGravatar = false
@@ -166,7 +166,7 @@ commento = false
   dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions]
-  email = "mailto:me@zoeydc.com"
+  email = "mailto:contact@zoeydc.com"
   phone = ""
   facebook = ""
   twitter = ""

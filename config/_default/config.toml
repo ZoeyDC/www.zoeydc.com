@@ -9,7 +9,7 @@ hasCJKLanguage = true  # 含中文、日文或韓文
 summaryLength = 70  # 擷取多少字作為 Summary (當文章的 description 未設定時)
 buildFuture = false  # if true, we can use future date for talks page
 
-copyright = "&copy;{year}, All Rights Reserved."   # 頁尾版權聲明
+copyright = "&copy;2021-{year}."   # 頁尾版權聲明
 timeout = 10000  # timeout 設定(避免頁面自我呼叫造成無限循環，而無法完成編譯)，如果有大量圖檔可能須提高臨界值
 enableEmoji = true
 paginate = 13  # Number of items per page in paginated lists.
