@@ -19,6 +19,7 @@ tags:
 categories:
 - installer
 image: images/2021-08-25/box-158523_640.png
+imagesource: https://pixabay.com/vectors/box-cardboard-package-parcel-brown-158523/
 ---
 
 關於安裝檔的建立，在這兩篇文章「[建立Installer](http://vito-note.blogspot.com/2012/02/installer.html)」和「[在Visual Studio將Windows Service打包成安裝檔](https://catchtest.pixnet.net/blog/post/30397914-%E5%9C%A8visual-studio%E5%B0%87windows-service%E6%89%93%E5%8C%85%E6%88%90%E5%AE%89%E8%A3%9D%E6%AA%94)」有找到滿詳細的說明，這裡主要是記錄製作安裝檔時其他可能用到的功能。

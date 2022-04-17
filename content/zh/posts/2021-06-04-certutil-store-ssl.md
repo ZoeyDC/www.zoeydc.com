@@ -15,6 +15,7 @@ tags:
 categories:
 - SSL
 image: images/2021-06-04/online-3474176_640.png
+imagesource: https://pixabay.com/illustrations/online-secure-data-privacy-3474176/
 ---
 
 記錄⽤ certutil 新增、刪除、查詢在「本機電腦」的「個⼈」或「受信任的根憑證授權單位」存放區的 SSL 憑證的指令。

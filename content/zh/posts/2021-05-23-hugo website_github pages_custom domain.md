@@ -19,6 +19,7 @@ categories:
 - GitHub
 - Hugo
 image: images/2021-05-23/hugo-logo-wide.svg
+imagesource: https://gohugo.io/
 ---
 
 一直有建部落格的想法，也試過一些部落格平台和 WordPress，覺得平台上開站雖然方便，只要註冊帳號就好，但是版型調整方式有限，無法將網站改成符合自己心意的模樣，相較而言，WordPress 自由度很高，不過架構也相對複雜，還需要管理外掛和資料庫，有點麻煩，不太符合單純寫文章的想法，經過一番搜尋後，決定用靜態網站來架設我的部落格！
