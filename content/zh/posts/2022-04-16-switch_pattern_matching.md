@@ -271,7 +271,7 @@ static double GetArea(Shape shape)
 ```
 
 ## Positional pattern 位置模式 (C# 8.0)
-Tuple 的應用。當運算式的結果是 Tuple 或其型別具有解構方法（Deconstruct method）時，可以針對每個元素進行比對。也屬於遞迴模式（recursive pattern），[微軟文件](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/patterns#positional-pattern)中有更多的範例。
+Tuple 的應用。當運算式的結果是 Tuple 或其型別具有分解方法（Deconstruct method）時，可以針對每個元素進行比對。也屬於遞迴模式（recursive pattern），[微軟文件](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/patterns#positional-pattern)中有更多的範例。
 
 ``` csharp
 static decimal GetTotal(decimal price, int count)
