@@ -21,6 +21,7 @@ tags:
 categories:
 - .NET Framework
 image: images/2021-07-10/stones-937659_640.jpg
+imagesource: https://pixabay.com/photos/stones-pile-rock-nature-stack-937659/
 ---
 
 最近在用 struct 時一直有些疑慮，決定還是將這部分好好弄清楚，所以就整理了這篇筆記，記錄 .NET「通用語言運行庫」（CLR；Common Language Runtime）如何管理和配置記憶體資源，來存取程式運行中用到的實值型別（value types）或參考型別（reference types）變數資料。
